@@ -65,6 +65,14 @@ a:hover{
     color: white;
 }
 
+.search:hover {
+    color: white;
+}
+
+.menu ol li a svg:hover {
+    color: white;
+}
+
 .ihand {
     height: 30px;
     width: 30px;
@@ -153,94 +161,69 @@ a:hover{
     flex-direction: row;
     cursor: pointer;
     font-family: var(--font-fill);
-    height: 63vh;
+    height: 68vh;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@700&family=League+Gothic&family=Roboto&family=Source+Sans+Pro:wght@900&display=swap');
 
 .flag ol {
+    padding-top: 60px;
+}
+
+.flag li {
     list-style-type: none;
-}
-
-.celeb {
-    font-size: 3.5rem;
-    font-stretch: ultra-condensed;
-    font-weight: bolder;
-    position: relative;
-    top: 35px;
-    color: white;
-    padding-left: 10px;
-}
-#celeb {
-    background-color: white;
-    width: 225px;
-    height: 10px;
-    position: relative;
-    bottom: 10px;
-    left: 63%;
-}
-
-.pride { 
-    font-size: 13rem;
-    font-stretch: ultra-condensed;
-    font-stretch: ultra-expanded;
-    font-weight: bolder;
-    position: relative;
-    bottom: 40px;
-}
-
-#month {
-    background-color: white;
-    width: 430px;
-    height: 10px;
-    position: relative;
-    bottom: 80px;
-    left: 2%;
-}
-.month {
-    font-size: 3.5rem;
-    font-stretch: ultra-condensed;
-    font-weight: bolder;
-    position: relative;
-    left: 72%;
-    bottom: 130px;
-}
-
-.june {
-    font-size: 4rem;
-    font-stretch: ultra-condensed;
-    font-weight: bolder;
-    position: relative;
-    bottom: 150px;
-}
-
-#june {
-    background-color: white;
-    width: 265px;
-    height: 10px;
-    position: relative;
-    bottom: 200px;
-    left: 45%;
-}
-
-.flag i {
-    background-color: white;
-    color: rgb(150, 52, 52);
-    border: 2.5px solid white;
-    border-radius: 100px;
-    width: 70px;
-    padding-top: 1.8px;  
-    padding-left: 0.6px; 
-    font-size: 4rem;
-    position: relative;
-    bottom: 240px;
-    left: 86.5%;
+    font-family: 'League Gothic', sans-serif;
 }
 
 .flag a img {
-    width: 46.4vw;
-    height: 63vh;
+    width: 62.3vw;
+    height: 68vh;
     justify-content: flex-end;
-    position: relative;
-    left: 13%;
+}
+
+.banner-header {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    padding-right: 100px;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.head1 {
+    font-size: 60px;
+    font-weight: bolder;
+    font-stretch: ultra-condensed;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.head2 {
+    font-size: 64px;
+    font-weight: bolder;
+    font-stretch: ultra-condensed;
+    padding-left: 2px;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.head3 {
+    font-size: 56px;
+    font-weight: bolder;
+    font-stretch: ultra-condensed;
+    padding-left: 5px;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.subhead {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.subhead abbr {
+    text-decoration: none;
+}
+
+.flag li .chev img {
+    width: 5vw;
+    height: 10vh;
 }
 
 .apply {
@@ -377,19 +360,24 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
 }
 
 .story-main ol i {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     position: relative;
     top: 300px;
-    padding-left: 5px;
+    right: 10px;
 }
 
 .story-main ol a {
     color: var(--color-fill);
-    font-family: var(--font-fill);
+    font-family: 'League Gothic', sans-serif;
     font-stretch: ultra-condensed;
-    font-size: 27.5px;
+    font-size: 1.5rem;
     font-weight: bolder;
     line-height: 30px;
+}
+
+#fonts {
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .story-main ol abbr {
@@ -400,9 +388,10 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
     padding-top: 10px;
     color: black;
     padding-bottom: 30px;
-    font-size: 1.05rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-family: 'League Gothic', sans-serif;
     cursor: default;
+    width: 25vw;
 }
 
 .event {
@@ -410,7 +399,7 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
     color: black;
     display: flex;
     flex-direction: column;
-    height:92vh;
+    height:105vh;
 }
 
 .event .event-head {
@@ -490,7 +479,7 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
     color: var(--color-fill);
     font-family: var(--font-fill);
     font-stretch: ultra-condensed;
-    font-size: 27.5px;
+    font-size: 29px;
     font-weight: bolder;
     line-height: 30px;
 }
@@ -504,7 +493,7 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
     color: black;
     padding-bottom: 30px;
     width: 29vw;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     cursor: default;
 }
@@ -582,7 +571,70 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
 }
 
 .initiative {
-    background-color: gray;
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+.initiative-head {
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.initiative-head h1 {
+    font-stretch: ultra-condensed;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.initiative-head p {
+    font-size: 1.19rem;
+    padding-right: 30px;
+}
+
+.initiative-main {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.initiative-main ol {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 15px;
+}
+
+.initiative-main ol li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.initiative-main ol li a {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: #c8102e;
+    font-family: var(--font-fill);
+    font-weight: bolder;
+    font-stretch: ultra-condensed;
+}
+
+.rule {
+    text-decoration: underline;
+}
+
+.initiative-main ol li a:hover {
+    color: rgb(109, 24, 24);
+    text-decoration: underline;
+}
+
+.initiative-main ol li p {
+    font-size: 1.1rem;
+    padding-right: 30px;
+}
+
+.initiative-main ol img {
+    width: 70px;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 .foot {
@@ -707,70 +759,4 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
 
 .foots ul ol a:hover {
     color: white;
-}
-
-.initiative {
-    color: black;
-    background-color: rgb(240, 240, 240);
-}
-.initiative-head {
-    padding-top: 60px;
-    padding-left: 40px;
-}
-
-.initiative-head h1 {
-    font-stretch: ultra-condensed;
-    font-weight: bolder;
-    font-size: 2.5rem;
-}
-
-.initiative-head p {
-    font-size: 1.19rem;
-    padding-right: 30px;
-}
-
-.initiative-main {
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-.initiative-main ol {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-top: 15px;
-}
-
-.initiative-main ol li {
-    list-style-type: none;
-    padding-bottom: 20px;
-}
-
-.initiative-main ol li a {
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    color: #c8102e;
-    font-family: var(--font-fill);
-    font-weight: bolder;
-    font-stretch: ultra-condensed;
-}
-
-.rule {
-    text-decoration: underline;
-}
-
-.initiative-main ol li a:hover {
-    color: rgb(109, 24, 24);
-    text-decoration: underline;
-}
-
-.initiative-main ol li p {
-    font-size: 1.1rem;
-    padding-right: 30px;
-}
-
-.initiative-main ol img {
-    width: 70px;
-    font-weight: bolder;
-    padding-bottom: 20px;
 }
