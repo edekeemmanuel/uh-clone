@@ -1230,10 +1230,11 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
 }
 
 .event-main i {
-    font-size: 1.5rem;
+    font-size: 2rem;
+   font-weight: bolder;
     position: relative;
     top: 300px;
-    left: 420px ;
+    left: 450px ;
     color: var(--color-fill);
     /* right: 18px; */
 }
